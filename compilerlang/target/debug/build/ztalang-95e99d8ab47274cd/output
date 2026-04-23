@@ -1,0 +1,4 @@
+cargo:rerun-if-changed=/home/ctrl/pong0000/ztalang_complete/src/asm/lexer.asm
+cargo:rerun-if-changed=/home/ctrl/pong0000/ztalang_complete/src/asm/parser.asm
+cargo:rustc-link-search=native=/home/ctrl/pong0000/ztalang_complete/target/debug/build/ztalang-95e99d8ab47274cd/out
+cargo:rustc-link-lib=static=compiler_asm

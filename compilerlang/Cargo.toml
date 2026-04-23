@@ -1,0 +1,14 @@
+[package]
+name    = "ztalang"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "ztac"
+path = "src/main.rs"
+
+[build-dependencies]
+# brak zewnętrznych — build.rs używa tylko std::process
+
+[dependencies]
+# na razie czyste std
